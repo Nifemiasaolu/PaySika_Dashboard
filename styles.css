@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+}
+
+body {
+    background-color: #f3f4f5;
+    overflow-x: hidden;
+}
+
+.top-floating-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #0e0e5e;
+    padding: 15px 20px;
+    color: #fff;
+    
+}
