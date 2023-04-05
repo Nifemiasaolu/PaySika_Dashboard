@@ -71,4 +71,108 @@ body {
     padding-right: 5px;
 }
 
+    /* Title Section  */
 
+#title {
+    background-color: #fff;
+}
+
+.underline-bar {
+    border-bottom: 2px solid transparent;
+    margin-right: 8px;
+    position: relative;
+    border-radius: 1em;
+}
+.underline-bar:before {
+    /* content: "";
+    position: absolute;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,151,1) 100%); */
+    /* border-bottom: 4px solid; */
+    /* border-image-source: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,151,1) 100%); */
+    /* margin-right: 8px; */
+    /* border-radius: 5px; */
+
+}
+#downloadApp {
+    background: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,151,1) 100%);
+    /* color: white; */
+    border: none;
+    outline: none;
+}
+
+#switchCountry {
+    background: #e5f9f8 !important;
+    color: #0e0e5e;
+    border: none;
+    outline: none;
+}
+
+.download-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+.download-img {
+    vertical-align: middle;
+}
+
+    /* Section One */
+#sectionOne {
+    background: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,151,1) 100%);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding-bottom: 4.6rem;
+}
+
+.sectionOne-img {
+    width: 87%;
+}
+.sectionOne-image {
+    width: 100%;
+}
+
+.one-account {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    text-align: center;
+    color: #fff;
+}
+
+.one-acount-text {
+    font-weight: 900;
+}
+
+.card-button {
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #0e0e5e;
+    font-weight: bold;
+}
+
+.card {
+    /* width: max-content; */
+    /* height: 5%; */
+    width: 22rem;
+    margin: 0 !important;
+}
+
+.mobile-card {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.mobile-text {
+    width: 12rem;
+    /* padding-left: 10px; */
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.image-card {
+    width: 7.5rem;
+    height: 8em;
+}
