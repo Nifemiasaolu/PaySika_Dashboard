@@ -120,9 +120,10 @@ body {
     /* Section One */
 #sectionOne {
     background: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,151,1) 100%);
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    padding-bottom: 4.6rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    /* padding-bottom: 4.6rem; */
+    height: 9 0vh;
 }
 
 .sectionOne-img {
@@ -153,16 +154,22 @@ body {
     font-weight: bold;
 }
 
+    /* Section Two */
+
+.card-section {
+    position: relative;
+    z-index: 1;
+    top: -60px; 
+}
 .card {
     /* width: max-content; */
     /* height: 5%; */
     width: 22rem;
     margin: 0 !important;
-}
-
-.mobile-card {
-    display: flex;
-    /* justify-content: space-between; */
+    border-radius: 2rem;
+    border: none;
+    --bs-card-spacer-y: 0 !important;
+    --bs-card-spacer-x: 0 !important;
 }
 
 .mobile-text {
@@ -172,7 +179,47 @@ body {
     line-height: 1.9;
 }
 
+.mobile-text p, .advantage-section-card p {
+    color: #0e0e5e;
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .image-card {
     width: 7.5rem;
     height: 8em;
+    border-radius: 1rem;
+}
+
+.sectionTwo-content p {
+    color: #8081aa;
+}
+
+.deep-blue-content {
+    color: #0e0e5e;
+    font-weight: 900;
+}
+
+.deep-green-content {
+    color: #00cc92;
+    font-weight: 900;
+}
+
+.advantage-section-card {
+    background-color: #fff;
+}
+
+
+.check-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #00cc92;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -1rem;
+    left: 7rem;
+}
+.check-circle i{
+    vertical-align: middle;
 }
