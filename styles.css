@@ -263,3 +263,73 @@ body {
     background-color: #fff;
     height: 65vh;
 }
+
+.notification-download {
+    background: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,151,1) 100%);
+    border: none;
+    outline: none;
+    width: max-content;
+}
+.notification-download:hover {
+    background: linear-gradient(90deg, rgba(0,202,151,1) 0%, rgba(0,178,238,1) 100%);
+}
+.real-notification-image {
+    width: 8rem;
+    position: relative;
+    bottom: -2.6rem;
+    left: 8rem;
+    padding-bottom: 0 !important;
+}
+
+    /* Recieve Payment Section */
+
+.receive-payment-section {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.payment-image {
+    justify-content: center;
+    color: #0e0e5e;
+}
+.payment-image img{
+    width: 30%;
+    height: 12%;
+}
+.payment-text h1{
+    font-size: 2rem;
+}
+
+    /* Fraancophone Africa Section */
+
+#francophoneAfrica {
+    background: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,217,1) 100%);
+    color: white;
+    padding: 0 !important;
+    height: 130vh;
+}
+
+.amazon-image {
+    background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.instant-card-image{
+    width: 70%;
+  
+}
+
+.playstore-image {
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+    width: 100%;
+    float: right;
+}
+
+
