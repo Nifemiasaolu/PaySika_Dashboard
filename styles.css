@@ -332,4 +332,48 @@ body {
     float: right;
 }
 
+    /* Card Priority Section */
+#card-priority {
+    color: #0e0e5e;
+}
 
+.card-priority-sub-section {
+    background-color: #fff;
+}
+
+.card-priority-image {
+    position: relative;
+}
+.bottom-image {
+    /* position: relative; */
+    filter: blur(3px);
+    background-position: center bottom;
+    padding-top: 3rem;
+}
+
+.bottom-icon {
+    position: absolute;
+    left: 50%;
+    /* bottom: 0.1%; */
+    transform: translate(-50%,-100%);
+}
+
+.card-priority-section {
+    position: relative;
+    z-index: 1;
+    top: -100px; 
+}
+
+    /* Physical Card */
+
+.physical-circle-card {
+    width: 30px;
+    height: 30px;
+    background-color: #00cc92;
+    border-radius: 50%;
+}
+
+.physical-circle-card i {
+    vertical-align: middle;
+    transform: translate(50%, 0%);
+}
