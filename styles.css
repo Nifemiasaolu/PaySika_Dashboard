@@ -369,6 +369,10 @@ body {
 .physical-card p {
     color: #8081aa;
 }
+
+.physical-card-content {
+    padding-left: 7rem;
+}
 .physical-circle-card {
     width: 30px;
     height: 30px;
@@ -381,3 +385,29 @@ body {
     transform: translate(55%, 0%);
 }
 
+.physical-card-section-two {
+    margin-top: 5rem;
+}
+
+.physical-card-imageTwo {
+    padding-right: 0 !important;
+}
+
+    /* Process Section */
+
+.process-section {
+    margin-top: 8rem;
+}
+
+.number-circle-div {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.number-circle-content {
+    position: absolute;
+    /* left: 50%;  */
+    transform: translate(-50%,-50%);
+}
