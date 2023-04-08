@@ -366,6 +366,9 @@ body {
 
     /* Physical Card */
 
+.physical-card p {
+    color: #8081aa;
+}
 .physical-circle-card {
     width: 30px;
     height: 30px;
@@ -375,5 +378,6 @@ body {
 
 .physical-circle-card i {
     vertical-align: middle;
-    transform: translate(50%, 0%);
+    transform: translate(55%, 0%);
 }
+
