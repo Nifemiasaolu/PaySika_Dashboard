@@ -366,7 +366,7 @@ body {
 
     /* Physical Card */
 
-.physical-card p, .process-section-content, #images-section p{
+.physical-card p, .process-section-content, #partner-section p, .contact-section p{
     color: #8081aa;
 }
 
@@ -429,9 +429,85 @@ body {
 #partner-section {
     background-color: #fff;
     /* padding: 7% 9%; */
+    padding-bottom: 15rem;
+}
+
+.partner-section-content {
+    padding-top: 7rem;
 }
 
 .partner-section-slideshow {
     display: flex;
     width: 80%;
+    padding-top: 4rem;
+}
+
+    /* Footer Section */
+
+#footer-section {
+    margin-top: 2rem;
+    background-color: #0e0e5e;
+    color: #fff;
+}
+
+.list-circle-div {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    /* position: relative; */
+    /* top: 2rem; */
+    /* left: 45%; */
+    /* transform: translate(-50%,-50%); */
+    /* padding-top: 3rem; */
+}
+
+.list-circle-div i {
+    vertical-align: middle;
+}
+
+
+    /* Download App Section */
+    
+.downloadAppFree {
+    background: linear-gradient(90deg, rgba(0,183,237,1) 0%, rgba(0,202,217,1) 100%);
+    padding: 5% 0 0 8%;
+    border-radius: 2rem;
+    position: relative;
+    top: -10rem;
+}
+
+.list-circle-content-two {
+    /* width: fit-content; */
+    /* padding-left: 2rem; */
+}
+
+.list-circle-content p {
+    width: fit-content;
+}
+
+.downloadAppFree-image {
+    border-radius: 2rem;
+}
+
+/* Contact Section */
+
+.contact-section {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 2rem;
+    padding: 5rem 0;
+}
+
+.contact-mobile-button {
+    background-color: #fff;
+}
+
+.contact-mobile-button:hover {
+    color: #0d6efd;
+}
+
+.contact-button {
+    background: linear-gradient(90deg, rgba(0,183,237,1) 0%, rgba(0,202,217,1) 100%);
+    color: white;
 }
