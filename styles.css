@@ -366,7 +366,7 @@ body {
 
     /* Physical Card */
 
-.physical-card p {
+.physical-card p, .process-section-content, #images-section p{
     color: #8081aa;
 }
 
@@ -399,15 +399,39 @@ body {
     margin-top: 8rem;
 }
 
+.process-section-button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
 .number-circle-div {
     width: 30px;
     height: 30px;
     background-color: #fff;
     border-radius: 50%;
+    text-align: center;
+    position: relative;
+    /* top: rem; */
+    left: 45%;
+    transform: translate(-50%,-50%);
 }
 
 .number-circle-content {
-    position: absolute;
-    /* left: 50%;  */
-    transform: translate(-50%,-50%);
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+    /* Images Section */
+
+#partner-section {
+    background-color: #fff;
+    /* padding: 7% 9%; */
+}
+
+.partner-section-slideshow {
+    display: flex;
+    width: 80%;
 }
