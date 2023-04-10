@@ -366,7 +366,7 @@ body {
 
     /* Physical Card */
 
-.physical-card p, .process-section-content, #partner-section p, .contact-section p{
+.physical-card p, .process-section-content, #partner-section p, .contact-section p, .subscribe-color{
     color: #8081aa;
 }
 
@@ -469,7 +469,7 @@ body {
 
 
     /* Download App Section */
-    
+
 .downloadAppFree {
     background: linear-gradient(90deg, rgba(0,183,237,1) 0%, rgba(0,202,217,1) 100%);
     padding: 5% 0 0 8%;
@@ -510,4 +510,92 @@ body {
 .contact-button {
     background: linear-gradient(90deg, rgba(0,183,237,1) 0%, rgba(0,202,217,1) 100%);
     color: white;
+}
+
+    /* Footer menu */
+
+.menu-list {
+    margin-top: 7rem;
+}
+
+.contact-email {
+    border: none;
+    outline: none;
+}
+
+.contact-subscribe {
+    padding: 4rem;
+    
+    /* margin-top: 8rem; */
+}
+
+.checkbox-content {
+    display: flex;
+}
+.checkbox-content p {
+    vertical-align: middle;
+}
+
+    /* Menu List */
+
+.menu-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-list ul li {
+    padding: .5rem 0;
+}
+
+.menu-list ul li a {
+    text-decoration: none;
+    color: #8081aa;
+    transition: .5s all;
+}
+
+.menu-list ul li a:hover {
+    color: #fff;
+}
+
+.paysika-length {
+    width: max-content;
+}
+hr{
+    color: #fff;
+}
+
+    /* Footer Social Section */
+
+.footer-social-section a {
+    text-decoration: none;
+    margin-right: .5rem;
+}
+
+.footer-social-section a i{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #00b0f4;
+    text-align: center;
+    border-radius: 50%;
+    /* vertical-align: middle; */
+    display: grid;
+    place-items: center;
+}
+
+.copyright p {
+    color: #babad1;
+    font-size: 12px;
+    float: right;
+}
+.copyright span {
+    color: #057169;
+}
+
+.footer-company-detail p {
+    color: rgba(255, 255, 255, 0.3);;
+    font-size: 12px;
+    /* white-space: pre-wrap; */
+    padding-bottom: 1rem;
+    margin-bottom: 0;
 }
