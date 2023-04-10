@@ -78,12 +78,13 @@ body {
 }
 
 .underline-bar {
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid transparent #fff;
     margin-right: 8px;
-    position: relative;
-    border-radius: 1em;
+    /* position: relative; */
+    /* border-radius: 1em; */
+    color: rgba(14,14,94,.55);
 }
-.underline-bar:before {
+.underline-bar:hover {
     /* content: "";
     position: absolute;
     z-index: -1;
@@ -93,6 +94,7 @@ body {
     /* border-image-source: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,151,1) 100%); */
     /* margin-right: 8px; */
     /* border-radius: 5px; */
+    border-bottom: 3px solid black;
 
 }
 #downloadApp {
@@ -115,6 +117,10 @@ body {
 }
 .download-img {
     vertical-align: middle;
+}
+
+.choose-country-dropdown {
+    width: max-content;
 }
 
     /* Section One */
@@ -232,8 +238,6 @@ body {
 
 .virtual-card {
     background: linear-gradient(180deg, rgba(0,178,238,1) 0%, rgba(0,202,217,1) 100%);
-    /* border-radius: 1rem; */
-    height: 65vh;
 }
 
 .phone-image {
@@ -261,7 +265,8 @@ body {
 
 .real-notification {
     background-color: #fff;
-    height: 65vh;
+    height: 100%;
+    color: #0e0e5e;
 }
 
 .notification-download {
@@ -276,8 +281,9 @@ body {
 .real-notification-image {
     width: 8rem;
     position: relative;
-    bottom: -2.6rem;
-    left: 8rem;
+    bottom: -4.4rem;
+    /* left: 8rem; */
+    float: right;
     padding-bottom: 0 !important;
 }
 
@@ -309,9 +315,17 @@ body {
     background: linear-gradient(90deg, rgba(0,178,238,1) 0%, rgba(0,202,217,1) 100%);
     color: white;
     padding: 0 !important;
-    height: 130vh;
+    /* height: 130vh; */
+    height: 100%;
 }
 
+.francophone-card-text {
+    margin-bottom: 9rem;
+}
+
+.card-button {
+    width: max-content;
+}
 .amazon-image {
     background-size: contain;
     background-position: top left;
@@ -333,7 +347,7 @@ body {
 }
 
     /* Card Priority Section */
-#card-priority {
+#card-priority, .payment-text {
     color: #0e0e5e;
 }
 
@@ -598,4 +612,66 @@ hr{
     /* white-space: pre-wrap; */
     padding-bottom: 1rem;
     margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 640px) {
+    .choose-country-dropdown .btn-secondary, .download-query {
+        margin: .2rem 0 !important;
+    }
+    .one-account {
+        position: unset;
+    }
+
+    .card-section {
+        margin-top: 2rem;
+    }
+
+    .phone-image {
+        float: right;
+    }
+
+    .virtual-card {
+        margin-bottom: 2rem;
+    }
+
+    .real-notification-image{
+        position: unset; 
+    }
+
+    .receive-payment-content-query {
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+
+    .receive-payment-image {
+        float: none !important;
+        width: 70%;
+    }
+
+    .payment-text h1 {
+        font-size: 22px;
+        margin-top: 2rem;
+    }
+    
+    .card-priority-sub-section  {
+        margin-bottom: 2rem;
+    }
+
+    .card-priority-image {
+        /* position: unset; */
+    }
+
+    .bottom-image {
+        
+        place-items: center;
+    }
+
+    .bottom-icon {
+        /* position: unset; */
+        bottom: -50%;
+        /* transform: translate(-80%,-100%); */
+    }
+
 }
